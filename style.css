@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    margin: 0;
+}
+
+.boundary {
+    border: 5px solid rgb(0, 58, 0);
+    border-radius: 10px;
+    /* box-shadow: 10px 10px rgb(0, 58, 0); */
+    box-shadow: inset 0 0 0 10px rgb(0, 58, 0);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    background-color: greenyellow;
+    margin: 5px;
+}
+
+.snake {
+    background-color: black;
+}
+
+.food {
+    background-color: white;
+}
+
+#startBtn {
+    background-color: green;
+    position: absolute;
+    font-size: 30px;
+    top: 78%;
+    border: 5px solid black;
+    border-radius: 20px
+}
+
+img {
+    position: absolute;
+    width: 400px;
+    height: 50%;
+    margin-right: 20px; 
+}
